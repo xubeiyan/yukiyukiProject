@@ -11,7 +11,7 @@ function createWindow () {
 	// 然后加载应用的 index.html。
 	mainWindow.loadFile('index.html');
 	
-	mainWindow.setMenu(null);
+	// mainWindow.setMenu(null);
 	
 	mainWindow.on('closed', () => {
 		mainWindow = null;

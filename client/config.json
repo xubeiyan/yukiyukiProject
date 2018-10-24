@@ -1,10 +1,6 @@
 {
-	"host": "testjitsi.qingtui.im",
+	"host": "yukiyuki.moe",
 	"port": 9000, 
-	"path": "myapp",
-	"key": "peerjs",
-	"secure": true,
-	"config": {"iceServers": [
-		{ "url": "stun:testjitsi.qingtui.im:5349" }
-	]}
+	"path": "/yukiyuki",
+	"key": "yukiyukisouomouyo"
 }
