@@ -1,1 +1,0 @@
-var socket = io('http://testjitsi.qingtui.im:9000/')
