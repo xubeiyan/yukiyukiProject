@@ -8,12 +8,20 @@
 
 > 另外的ICE服务器使用的Google的stun服务器，如果需要自己搭建以增加速度，可以使用[coturn](https://github.com/coturn/coturn)或者其他的ICE服务器软件
 
-> 这里使用了`electron`作为载体，但由于没有将其写到dependency中，需要自行安装，robotjs我已经编译成electron适用形式了，不需要重新编译
+> 这里使用了`electron`作为载体，但由于没有将其写到dependency中，需要自行安装，robotjs需要重新编译成适合electron的形式，请参考[这里](https://robotjs.io/docs/electron)
 
 ### 使用方式
+
+* 安装node依赖       
+`npm install`    
+* server端需要重新编译`robotjs`以适应`electron`    
+* 如果没有安装过`electron`的话，需要安装，国内网络情况不是很好，请多试几次    
+`npm install -g electron`
+
 分别执行`electron .`启动客户端和服务端，将客户端生成的peerid发送给服务端，填入即可    
 
 ### 其他开源库
+
 使用了以下开源库    
 * [peerjs](https://peerjs.com/)    
 * [robotjs](https://robotjs.io/) 
